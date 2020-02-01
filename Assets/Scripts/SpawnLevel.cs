@@ -21,17 +21,7 @@ public class SpawnLevel : MonoBehaviour
             tempBlock.GetComponent<RotatePiece>().setRotationStatus(block.initialRotation);
             tempBlock.GetComponent<RotatePiece>().setPosition(block.position);
             tempBlock.GetComponent<RotatePiece>().setType(block.type);
-        }
-
-    }
-    void startGame(Block[] blocks)
-    {
-        foreach (Block block in currentLevel.blocks)
-        {
-            GameObject tempBlock = Instantiate(tileObject);
-            tempBlock.GetComponent<RotatePiece>().setRotationStatus(block.initialRotation);
-            tempBlock.GetComponent<RotatePiece>().setPosition(block.position);
-            tempBlock.GetComponent<RotatePiece>().setType(block.type);
+            tempBlock.GetComponent<RotatePiece>().setAnswerPosition(block.answerRotation);
         }
 
     }

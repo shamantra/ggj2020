@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class RotatePiece : MonoBehaviour
 {
-    const int SIZE_X=1;
-    const int OFFSET_X=1;
-    const int SIZE_Y=1;
-    const int OFFSET_Y = 1;
-    public RotatePiece(int _rotateStatus, int _type, Vector2 _position)
+    const float SIZE_X=1;
+    const float OFFSET_X=-5.5f;
+    const float SIZE_Y=1;
+    const float OFFSET_Y = 2.5f;
+    public RotatePiece(int _rotateStatus, int _type, Vector2 _position,int _answerPosition)
     {
         rotationStatus = _rotateStatus;
         type = _type;
@@ -17,6 +17,7 @@ public class RotatePiece : MonoBehaviour
     int rotationStatus;
     int type;
     Vector2 position;
+    int answerPosition;
     [SerializeField]
     Sprite[] pipes; 
     // Start is called before the first frame update
@@ -50,15 +51,19 @@ public class RotatePiece : MonoBehaviour
     {
         return position;
     }
-    // Update is called once per frame
-    void Update()
+    public void setAnswerPosition(int _answerPosition)
     {
-        
+        answerPosition = _answerPosition;
+    }
+    public int getAnswerPosition()
+    {
+        return answerPosition;
     }
     private void OnMouseDown()
     {
         transform.Rotate(0, 0, 90);
         rotationStatus += 1;
         rotationStatus = rotationStatus >= 4 ? 0 : rotationStatus;
+        GameOverCheck.getInstance().checkWin();
     }
 }
