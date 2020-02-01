@@ -21,7 +21,7 @@ public class GameOverCheck : MonoBehaviour
         for(int i=0;i<winningAnswer.Length;i++)
         {
             bHasWon = true;
-            if(winningAnswer[i]!=rotatingTiles[i].positionStatus)
+            //if(winningAnswer[i]!=rotatingTiles[i].rotationStatus)
             {
                 bHasWon = false;
 
