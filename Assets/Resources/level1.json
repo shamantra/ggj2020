@@ -1,0 +1,35 @@
+﻿{
+    "level": 1,
+    "blocks": [
+        {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": 1,
+            "isStatic": true,
+            "initialRotation": 0,
+            "answerRotation": 0
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 0
+            },
+            "type": 1,
+            "isStatic": false,
+            "initialRotation": 0,
+            "answerRotation": 0
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 0
+            },
+            "type": 1,
+            "isStatic": false,
+            "initialRotation": 0,
+            "answerRotation": 0
+        }
+    ]
+}
