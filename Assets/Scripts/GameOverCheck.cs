@@ -23,6 +23,8 @@ public class GameOverCheck
         rotatingTiles = GameObject.FindObjectsOfType<RotatePiece>();
         for (int i = 0; i < rotatingTiles.Length; i++)
         {
+            if (rotatingTiles[i].getIsStatic())
+                continue;
             bHasWon = true;
             if(rotatingTiles[i].getAnswerPosition()!=rotatingTiles[i].getRotationStatus())
             {
@@ -32,6 +34,7 @@ public class GameOverCheck
         }
         if (bHasWon)
         {
+            winPanel = GameObject.FindObjectOfType<PanelScript>().gameObject.transform.GetChild(0).gameObject;
             Debug.Log("Won");
             winPanel.SetActive(true);
         }

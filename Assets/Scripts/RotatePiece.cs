@@ -18,6 +18,7 @@ public class RotatePiece : MonoBehaviour
     int type;
     Vector2 position;
     int answerPosition;
+    bool bIsStatic;
     [SerializeField]
     Sprite[] pipes; 
     // Start is called before the first frame update
@@ -59,8 +60,18 @@ public class RotatePiece : MonoBehaviour
     {
         return answerPosition;
     }
+    public bool getIsStatic()
+    {
+        return bIsStatic;
+    }
+    public void setBIsStatic(bool _bIsStatic)
+    {
+        bIsStatic = _bIsStatic;
+    }
     private void OnMouseDown()
     {
+        if (bIsStatic)
+            return;
         transform.Rotate(0, 0, 90);
         rotationStatus += 1;
         rotationStatus = rotationStatus >= 4 ? 0 : rotationStatus;

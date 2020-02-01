@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class PanelScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void exitButton()
     {
-        
+        Application.Quit();
     }
-
-    // Update is called once per frame
-    void Update()
+    public void nextLevel()
     {
-        
+        //:TODO
+        //callNextLevel();
     }
 }
