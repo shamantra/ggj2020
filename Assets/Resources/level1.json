@@ -10,7 +10,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 3,
-            "answerRotation": 2
+            "answerRotation": [ 2 ]
         },
         {
             "position": {
@@ -21,7 +21,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 0,
-            "answerRotation": 1
+            "answerRotation": [ 1 ]
         },
         {
             "position": {
@@ -32,7 +32,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 0,
-            "answerRotation": 1
+            "answerRotation": [ 1 ]
         },
         {
             "position": {
@@ -43,7 +43,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 0,
-            "answerRotation": 2
+            "answerRotation": [ 2 ]
         },
         {
             "position": {
@@ -54,7 +54,7 @@
             "inPath": false,
             "isStatic": false,
             "initialRotation": 0,
-            "answerRotation": 0
+            "answerRotation": [ 0 ]
         },
         {
             "position": {
@@ -65,7 +65,7 @@
             "inPath": true,
             "isStatic": true,
             "initialRotation": 0,
-            "answerRotation": 0
+            "answerRotation": [ 0 ]
         },
         {
             "position": {
@@ -76,7 +76,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 3,
-            "answerRotation": 3
+            "answerRotation": [ 3 ]
         },
         {
             "position": {
@@ -87,7 +87,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 1,
-            "answerRotation": 1
+            "answerRotation": [ 1 ]
         },
         {
             "position": {
@@ -97,7 +97,7 @@
             "type": 1,
             "isStatic": false,
             "initialRotation": 3,
-            "answerRotation": 1
+            "answerRotation": [ 1 ]
         },
         {
             "position": {
@@ -108,7 +108,7 @@
             "inPath": true,
             "isStatic": true,
             "initialRotation": 2,
-            "answerRotation": 0
+            "answerRotation": [ 0 ]
         },
         {
             "position": {
@@ -119,7 +119,7 @@
             "inPath": false,
             "isStatic": true,
             "initialRotation": 0,
-            "answerRotation": 0
+            "answerRotation": [ 0 ]
         },
         {
             "position": {
@@ -130,7 +130,7 @@
             "inPath": true,
             "isStatic": true,
             "initialRotation": 0,
-            "answerRotation": 0
+            "answerRotation": [ 0 ]
         },
         {
             "position": {
@@ -141,7 +141,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 3,
-            "answerRotation": 3
+            "answerRotation": [ 3 ]
         },
         {
             "position": {
@@ -152,7 +152,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 1,
-            "answerRotation": 1
+            "answerRotation": [ 1 ]
         },
         {
             "position": {
@@ -163,7 +163,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 1,
-            "answerRotation": 1
+            "answerRotation": [ 1 ]
         },
         {
             "position": {
@@ -174,7 +174,7 @@
             "inPath": false,
             "isStatic": false,
             "initialRotation": 1,
-            "answerRotation": 1
+            "answerRotation": [ 1 ]
         },
         {
             "position": {
@@ -185,7 +185,7 @@
             "inPath": false,
             "isStatic": false,
             "initialRotation": 1,
-            "answerRotation": 1
+            "answerRotation": [ 1 ]
         },
         {
             "position": {
@@ -196,7 +196,7 @@
             "inPath": false,
             "isStatic": false,
             "initialRotation": 1,
-            "answerRotation": 1
+            "answerRotation": [ 1 ]
         },
         {
             "position": {
@@ -207,7 +207,7 @@
             "inPath": false,
             "isStatic": true,
             "initialRotation": 1,
-            "answerRotation": 1
+            "answerRotation": [ 1 ]
         },
         {
             "position": {
@@ -218,7 +218,7 @@
             "inPath": false,
             "isStatic": false,
             "initialRotation": 0,
-            "answerRotation": 0
+            "answerRotation": [ 0 ]
         },
         {
             "position": {
@@ -229,7 +229,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 1,
-            "answerRotation": 3
+            "answerRotation": [ 3 ]
         },
         {
             "position": {
@@ -240,7 +240,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 3,
-            "answerRotation": 1
+            "answerRotation": [ 1 ]
         },
         {
             "position": {
@@ -251,7 +251,7 @@
             "inPath": false,
             "isStatic": false,
             "initialRotation": 2,
-            "answerRotation": 0
+            "answerRotation": [ 0 ]
         },
         {
             "position": {
@@ -262,7 +262,7 @@
             "inPath": true,
             "isStatic": true,
             "initialRotation": 0,
-            "answerRotation": 0
+            "answerRotation": [ 0 ]
         },
         {
             "position": {
@@ -273,7 +273,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 0,
-            "answerRotation": 0
+            "answerRotation": [ 0 ]
         },
 
         {
@@ -285,7 +285,7 @@
             "inPath": true,
             "isStatic": true,
             "initialRotation": 0,
-            "answerRotation": 0
+            "answerRotation": [ 0 ]
         }
     ]
 }
