@@ -12,7 +12,7 @@ public class LevelReader : MonoBehaviour
 
     public Layout LoadNextLevel()
     {
-        return LoadLevel(level++);
+        return LoadLevel(++level);
     }
 
     Layout LoadLevel(int lvl)

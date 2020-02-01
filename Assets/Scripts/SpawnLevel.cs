@@ -8,12 +8,20 @@ public class SpawnLevel : MonoBehaviour
     [SerializeField]
     GameObject tileObject;
 
-    public delegate void StartGameEvent(Block[] blocks);
-    public static event StartGameEvent OnStartGame;
     // Start is called before the first frame update
     void Start()
     {
-        //OnStartGame += startGame;
+        LoadLevel();
+    }
+    // Update is called once per frame
+    void Update()
+    {
+
+        
+    }
+    public void LoadLevel()
+    {
+
         currentLevel = GameLevel.getGameLevel().getLevel();
         foreach (Block block in currentLevel.blocks)
         {
@@ -24,12 +32,5 @@ public class SpawnLevel : MonoBehaviour
             tempBlock.GetComponent<RotatePiece>().setAnswerPosition(block.answerRotation);
             tempBlock.GetComponent<RotatePiece>().setBIsStatic(block.isStatic);
         }
-
-    }
-    // Update is called once per frame
-    void Update()
-    {
-
-        
     }
 }

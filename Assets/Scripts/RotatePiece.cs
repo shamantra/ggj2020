@@ -26,7 +26,7 @@ public class RotatePiece : MonoBehaviour
     {
         GetComponent<SpriteRenderer>().sprite = pipes[type];
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90 * rotationStatus));
-        transform.position = new Vector2(position.x*SIZE_X+OFFSET_X,position.y*SIZE_Y+OFFSET_Y);
+        transform.position = new Vector2(position.x*SIZE_X+OFFSET_X,position.y*-SIZE_Y+OFFSET_Y);
     }
     public void setRotationStatus(int _rotation)
     {
