@@ -31,6 +31,7 @@ public class SpawnLevel : MonoBehaviour
             tempBlock.GetComponent<RotatePiece>().setType(block.type);
             tempBlock.GetComponent<RotatePiece>().setAnswerPosition(block.answerRotation);
             tempBlock.GetComponent<RotatePiece>().setBIsStatic(block.isStatic);
+            tempBlock.GetComponent<RotatePiece>().setIsPath(block.inPath);
         }
     }
 }

@@ -27,7 +27,7 @@ public class GameOverCheck
             if (rotatingTiles[i].getIsStatic()||!rotatingTiles[i].getIsPath())
                 continue;
             bHasWon = true;
-            if (Array.IndexOf(rotatingTiles[i].getAnswerPosition(), rotatingTiles[i].getRotationStatus())  !=-1)
+            if (Array.IndexOf(rotatingTiles[i].getAnswerPosition(), rotatingTiles[i].getRotationStatus())  ==-1)
             {
                 bHasWon = false;
                 break;
