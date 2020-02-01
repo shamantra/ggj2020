@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -23,10 +24,10 @@ public class GameOverCheck
         rotatingTiles = GameObject.FindObjectsOfType<RotatePiece>();
         for (int i = 0; i < rotatingTiles.Length; i++)
         {
-            if (rotatingTiles[i].getIsStatic())
+            if (rotatingTiles[i].getIsStatic()||!rotatingTiles[i].getIsPath())
                 continue;
             bHasWon = true;
-            if(rotatingTiles[i].getAnswerPosition()!=rotatingTiles[i].getRotationStatus())
+            if (Array.IndexOf(rotatingTiles[i].getAnswerPosition(), rotatingTiles[i].getRotationStatus())  !=-1)
             {
                 bHasWon = false;
                 break;

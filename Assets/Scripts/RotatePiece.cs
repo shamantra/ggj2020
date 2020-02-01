@@ -17,8 +17,9 @@ public class RotatePiece : MonoBehaviour
     int rotationStatus;
     int type;
     Vector2 position;
-    int answerPosition;
+    int[] answerPosition;
     bool bIsStatic;
+    bool isPath;
     [SerializeField]
     Sprite[] pipes; 
     // Start is called before the first frame update
@@ -52,11 +53,11 @@ public class RotatePiece : MonoBehaviour
     {
         return position;
     }
-    public void setAnswerPosition(int _answerPosition)
+    public void setAnswerPosition(int[] _answerPosition)
     {
         answerPosition = _answerPosition;
     }
-    public int getAnswerPosition()
+    public int[] getAnswerPosition()
     {
         return answerPosition;
     }
@@ -67,6 +68,15 @@ public class RotatePiece : MonoBehaviour
     public void setBIsStatic(bool _bIsStatic)
     {
         bIsStatic = _bIsStatic;
+    }
+
+    public bool getIsPath()
+    {
+        return isPath;
+    }
+    public void setIsPath(bool _isPath)
+    {
+        isPath = _isPath;
     }
     private void OnMouseDown()
     {
