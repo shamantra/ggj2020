@@ -5,19 +5,25 @@ using UnityEngine;
 public class GameLevel
 {
     public static GameLevel gameLevel;
-    public GameLevel()
+    public static GameLevel getGameLevel()
     {
-        if(gameLevel != null)
+
+        if (gameLevel != null)
         {
-            return;
+            return gameLevel;
+        }
+        else
+        {
+            gameLevel = new GameLevel();
+            return gameLevel;
         }
     }
-    public Layout level;
-    void setLevel(Layout _curr)
+    Layout level;
+    public void setLevel(Layout _curr)
     {
         level = _curr;
     }
-    Layout getLevel()
+    public Layout getLevel()
     {
         return level;
     }

@@ -14,8 +14,8 @@ public class RotatePiece : MonoBehaviour
         type = _type;
         position = _position;
     }
-    public int rotationStatus;
-    public int type;
+    int rotationStatus;
+    int type;
     Vector2 position;
     [SerializeField]
     Sprite[] pipes; 
@@ -26,7 +26,30 @@ public class RotatePiece : MonoBehaviour
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, 90 * rotationStatus));
         transform.position = new Vector2(position.x*SIZE_X+OFFSET_X,position.y*SIZE_Y+OFFSET_Y);
     }
-
+    public void setRotationStatus(int _rotation)
+    {
+        rotationStatus = _rotation;
+    }
+    public int getRotationStatus()
+    {
+        return rotationStatus;
+    }
+    public void setType(int _type)
+    {
+        type = _type;
+    }
+    public int getType()
+    {
+        return type;
+    }
+    public void setPosition(Vector2 _position)
+    {
+        position = _position;
+    }
+    public Vector2 getPosition()
+    {
+        return position;
+    }
     // Update is called once per frame
     void Update()
     {
