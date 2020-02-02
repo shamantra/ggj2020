@@ -6,11 +6,11 @@
                 "x": 2,
                 "y": 0
             },
-            "type": 0,
+            "type": 1,
             "inPath": true,
             "isStatic": false,
             "initialRotation": 3,
-            "answerRotation": [ 3 ]
+            "answerRotation": [ 2 ]
         },
         {
             "position": {
@@ -39,11 +39,11 @@
                 "x": 5,
                 "y": 0
             },
-            "type": 0,
+            "type": 1,
             "inPath": true,
             "isStatic": false,
             "initialRotation": 0,
-            "answerRotation": [ 2 ]
+            "answerRotation": [ 1 ]
         },
         {
             "position": {
