@@ -1,23 +1,16 @@
 ﻿{
-    "level": 1,
+    "level": 2,
     "blocks": [
         {
             "position": {
-                "x": 0,
-                "y": 0
-            },
-            "type": 1,
-            "initialRotation": 0,
-            "answerRotation": 0
-        },
-        {
-            "position": {
                 "x": 1,
-                "y": 2
+                "y": 3
             },
-            "type": 1,
-            "initialRotation": 0,
-            "answerRotation": 0
+            "type": 2,
+            "inPath": true,
+            "isStatic": true,
+            "initialRotation": 1,
+            "answerRotation": [ 1, 3 ]
         },
         {
             "position": {
@@ -25,8 +18,429 @@
                 "y": 3
             },
             "type": 1,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0 ]
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 2
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
             "initialRotation": 0,
-            "answerRotation": 0
+            "answerRotation": [ 0 ]
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 1
+            },
+            "type": 1,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 2,
+            "answerRotation": [ 1 ]
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 1
+            },
+            "type": 1,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 3,
+            "answerRotation": [ 3 ]
+        },
+        {
+            "position": {
+                "x": 1,
+                "y": 0
+            },
+            "type": 1,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 2,
+            "answerRotation": [ 2 ]
+        },
+        {
+            "position": {
+                "x": 2,
+                "y": 0
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 2,
+            "answerRotation": [ 1, 3 ]
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 0
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 0,
+            "answerRotation": [ 1, 3 ]
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 0
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 2,
+            "answerRotation": [ 1, 3 ]
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 0
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 2,
+            "answerRotation": [ 1, 3 ]
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 0
+            },
+            "type": 1,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 3,
+            "answerRotation": [ 1 ]
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 1
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 2,
+            "answerRotation": [ 2 ]
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 2
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 2,
+            "answerRotation": [ 2 ]
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 3
+            },
+            "type": 1,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 0,
+            "answerRotation": [ 3 ]
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 3
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 0,
+            "answerRotation": [ 1, 3 ]
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 3
+            },
+            "type": 1,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 0,
+            "answerRotation": [ 1 ]
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 4
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 5
+            },
+            "type": 1,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 3,
+            "answerRotation": [ 3 ]
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 5
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 1, 3 ]
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 5
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 1, 3 ]
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 5
+            },
+            "type": 1,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 0,
+            "answerRotation": [ 0 ]
+        },
+        {
+            "position": {
+                "x": 11,
+                "y": 4
+            },
+            "type": 1,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 0,
+            "answerRotation": [ 1 ]
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 4
+            },
+            "type": 1,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 2,
+            "answerRotation": [ 3 ]
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 3
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 2,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 2
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 1
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 10,
+                "y": 0
+            },
+            "type": 2,
+            "inPath": true,
+            "isStatic": true,
+            "initialRotation": 2,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 3,
+                "y": 4
+            },
+            "type": 2,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 4
+            },
+            "type": 2,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 4
+            },
+            "type": 2,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 6,
+                "y": 4
+            },
+            "type": 2,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 4
+            },
+            "type": 2,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 4
+            },
+            "type": 2,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 2
+            },
+            "type": 2,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 0,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 1
+            },
+            "type": 1,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 4,
+                "y": 3
+            },
+            "type": 1,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 3,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 5,
+                "y": 3
+            },
+            "type": 2,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 7,
+                "y": 0
+            },
+            "type": 2,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 9,
+                "y": 0
+            },
+            "type": 2,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 1,
+            "answerRotation": [ 0, 2 ]
+        },
+        {
+            "position": {
+                "x": 8,
+                "y": 0
+            },
+            "type": 1,
+            "inPath": false,
+            "isStatic": false,
+            "initialRotation": 0,
+            "answerRotation": [ 0, 2 ]
         }
+
     ]
 }
