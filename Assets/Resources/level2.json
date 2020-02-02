@@ -32,7 +32,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 0,
-            "answerRotation": [ 0 ]
+            "answerRotation": [ 0, 2 ]
         },
         {
             "position": {
@@ -131,7 +131,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 2,
-            "answerRotation": [ 2 ]
+            "answerRotation": [ 0, 2 ]
         },
         {
             "position": {
@@ -142,7 +142,7 @@
             "inPath": true,
             "isStatic": false,
             "initialRotation": 2,
-            "answerRotation": [ 2 ]
+            "answerRotation": [ 0, 2 ]
         },
         {
             "position": {

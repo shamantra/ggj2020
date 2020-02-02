@@ -18,12 +18,14 @@ public class LevelReader : MonoBehaviour
     Layout LoadLevel(int lvl)
     {
         TextAsset jsonFile = Resources.Load("level" + lvl) as TextAsset;
-
-        level = lvl;
-        currentLevel = JsonUtility.FromJson<Layout>(jsonFile.text);
-        GameLevel.getGameLevel().setLevel(currentLevel);
-
-        return currentLevel;
+        if (jsonFile != null)
+        {
+            level = lvl;
+            currentLevel = JsonUtility.FromJson<Layout>(jsonFile.text);
+            GameLevel.getGameLevel().setLevel(currentLevel);
+            return currentLevel;
+        }
+        return null;
     }
 
     void Start()
