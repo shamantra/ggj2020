@@ -35,9 +35,17 @@ public class GameOverCheck
         }
         if (bHasWon)
         {
-            winPanel = GameObject.FindObjectOfType<PanelScript>().gameObject.transform.GetChild(0).gameObject;
-            Debug.Log("Won");
-            winPanel.SetActive(true);
+            winPanel = GameObject.FindObjectOfType<PanelScript>().gameObject;
+            if (PanelScript.levelCounter < 1)
+            {
+                winPanel.transform.GetChild(0).gameObject.SetActive(true);
+                PanelScript.isPlayable = false;
+            }
+            else
+            {
+                winPanel.transform.GetChild(1).gameObject.SetActive(true);
+                PanelScript.isPlayable = false;
+            }
         }
     }
 }

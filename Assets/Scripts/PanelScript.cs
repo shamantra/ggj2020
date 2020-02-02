@@ -6,12 +6,15 @@ public class PanelScript : MonoBehaviour
 {
     [SerializeField]
     SpawnLevel levelSpawner;
+    public static int levelCounter =0;
+    public static bool isPlayable;
     public void exitButton()
     {
         Application.Quit();
     }
     public void nextLevel()
     {
+        levelCounter++;
         RotatePiece[] rotatePieces = GameObject.FindObjectsOfType<RotatePiece>();
         foreach(RotatePiece rotatePiece in rotatePieces)
         {

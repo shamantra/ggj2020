@@ -32,6 +32,7 @@ public class SpawnLevel : MonoBehaviour
             tempBlock.GetComponent<RotatePiece>().setAnswerPosition(block.answerRotation);
             tempBlock.GetComponent<RotatePiece>().setBIsStatic(block.isStatic);
             tempBlock.GetComponent<RotatePiece>().setIsPath(block.inPath);
+            PanelScript.isPlayable = true;
         }
     }
 }

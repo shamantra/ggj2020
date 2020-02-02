@@ -80,7 +80,7 @@ public class RotatePiece : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        if (bIsStatic)
+        if (bIsStatic||!PanelScript.isPlayable)
             return;
         transform.Rotate(0, 0, 90);
         rotationStatus += 1;
