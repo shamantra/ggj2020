@@ -6,10 +6,10 @@
                 "x": 1,
                 "y": 3
             },
-            "type": 2,
+            "type": 0,
             "inPath": true,
             "isStatic": true,
-            "initialRotation": 1,
+            "initialRotation": 3,
             "answerRotation": [ 1, 3 ]
         },
         {
@@ -292,7 +292,7 @@
                 "x": 10,
                 "y": 0
             },
-            "type": 2,
+            "type": 0,
             "inPath": true,
             "isStatic": true,
             "initialRotation": 2,
