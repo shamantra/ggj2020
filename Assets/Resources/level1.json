@@ -115,7 +115,7 @@
                 "x": 2,
                 "y": 2
             },
-            "type": 2,
+            "type": 0,
             "inPath": false,
             "isStatic": true,
             "initialRotation": 0,
@@ -281,7 +281,7 @@
                 "x": 10,
                 "y": 5
             },
-            "type": 2,
+            "type": 0,
             "inPath": true,
             "isStatic": true,
             "initialRotation": 0,
